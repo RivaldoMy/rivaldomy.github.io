@@ -1,6 +1,4 @@
 
-Rivaldo Myftaraj
-
 ### Welcome to my personal website
 
 Hi, I'm Rivaldo Myftaraj, and this is my professional GitHub Pages site.
