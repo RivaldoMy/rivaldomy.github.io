@@ -4,24 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rivaldo's Cybersecurity & Tech Hub</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Lato', sans-serif;
       background: #0d0d0d;
       color: #e0e0e0;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
     header {
       background: #111;
-      padding: 40px 20px;
+      padding: 50px 20px;
       text-align: center;
       border-bottom: 2px solid #0f0;
     }
     header h1 {
+      font-family: 'Playfair Display', serif;
       color: #0f0;
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     header p {
       color: #0ff;
@@ -30,23 +34,47 @@
     }
     main {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     section {
-      margin-bottom: 50px;
+      margin-bottom: 60px;
     }
     h2 {
+      font-family: 'Playfair Display', serif;
       color: #0f0;
       border-bottom: 1px solid #0f0;
       padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
     }
     a {
       color: #0ff;
       text-decoration: none;
+      transition: all 0.3s;
     }
     a:hover {
       text-decoration: underline;
+      color: #0f0;
+    }
+    .tools span {
+      display: inline-block;
+      background: #111;
+      border: 1px solid #0f0;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+    .tools span:hover {
+      transform: scale(1.1);
+      border-color: #0ff;
     }
     footer {
       text-align: center;
@@ -54,6 +82,14 @@
       background: #111;
       border-top: 2px solid #0f0;
       color: #888;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      main {
+        padding: 20px;
+      }
     }
   </style>
 </head>
@@ -66,21 +102,41 @@
   <main>
     <section>
       <h2>About Me</h2>
-      <p>Hi, I’m Rivaldo! I’m passionate about cybersecurity, ethical hacking, tech trends, and coding. This site is my personal hub to share projects, experiments, and insights in tech.</p>
+      <p>Hi, I’m Rivaldo! I’m passionate about cybersecurity, ethical hacking, tech trends, and coding. This site is my hub to share projects, experiments, and insights in tech.</p>
     </section>
 
     <section>
       <h2>Projects</h2>
       <ul>
-        <li><a href="https://github.com/RivaldoMy">GitHub Projects</a></li>
+        <li><a href="https://rivaldomy.github.io/" target="_blank" rel="noopener noreferrer">GitHub Pages Site</a></li>
         <li>Cybersecurity experiments & write-ups</li>
         <li>Tech demos and coding snippets</li>
       </ul>
     </section>
-<section>
-  <h2>Connect with Me</h2>
-  <ul>
-    <li><a href="https://github.com/RivaldoMy" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/rivaldo-myftaraj-5b32801b8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-  </ul>
-</section>
+
+    <section>
+      <h2>Tools & Skills</h2>
+      <div class="tools">
+        <span>Python</span>
+        <span>Linux</span>
+        <span>Penetration Testing</span>
+        <span>Networking</span>
+        <span>Git</span>
+        <span>JavaScript</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Connect with Me</h2>
+      <ul>
+        <li><a href="https://rivaldomy.github.io/" target="_blank" rel="noopener noreferrer">GitHub Pages Site</a></li>
+        <li><a href="https://www.linkedin.com/in/rivaldo-myftaraj-5b32801b8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Rivaldo — All rights reserved.
+  </footer>
+</body>
+</html>
