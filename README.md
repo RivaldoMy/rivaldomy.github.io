@@ -1,4 +1,4 @@
-Title: Home
+
 Rivaldo Myftaraj
 
 ### Welcome to my personal website
