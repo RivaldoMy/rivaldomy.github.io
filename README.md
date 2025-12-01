@@ -1,1 +1,0 @@
-# rivaldomy.github.io
